@@ -1,0 +1,30 @@
+{
+    "name": "zerosonesfun/flarum-bbcode-audio",
+    "description": "Audio BBcode Add-on.",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "wilcosky@gmail.com",
+            "homepage": "https://wilcosky.com",
+            "role": "Creator"
+        }
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+    },
+    "autoload": {
+        "psr-4": {"ZerosOnesFun\\audio\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Audio BBcode",
+            "icon": {
+                "name": "fas fa-volume-up",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
