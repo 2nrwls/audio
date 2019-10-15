@@ -16,7 +16,7 @@ return [
         ->configure(function (Configurator $config) {
              $config->BBCodes->addCustom(
                '[audio mp3="{URL1?}" ogg="{URL2?}"]',
-               '<p><audio class="bbaudio inline-exclude" style="width:100%;height:auto;" controls>
+               '<p><audio class="bbaudio inline-exclude" style="width:100%;outline:none;" controls>
                         <source src="{URL1}" type="audio/mpeg">
                         <source src="{URL2}" type="audio/ogg">
                 </audio></p>'
