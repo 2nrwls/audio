@@ -2,6 +2,12 @@
 
 A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use. This is not needed if you use my BBBBcode extension because that extension already includes this BBcode. This is only for those who do not want all the other codes that come with BBBBcode.
 
+### Usage
+`[audio mp3="song.mp3" ogg="song.ogg"]`
+or
+`[audio m4a="song.m4a"]`
+or the mp3 or off by itself.
+
 ### Installation
 
 ```sh
