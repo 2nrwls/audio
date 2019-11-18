@@ -4,9 +4,11 @@ A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compati
 
 ### Usage
 `[audio mp3="song.mp3" ogg="song.ogg"]`
+
 or
 `[audio m4a="song.m4a"]`
-or the mp3 or off by itself.
+
+or the mp3 or ogg by itself.
 
 ### Installation
 
