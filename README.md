@@ -10,6 +10,13 @@ or
 
 or the mp3 or ogg by itself.
 
+Optionally, you may add a parameter and/or width. Two popular parameters you might choose from are "loop" or "autoplay." The "controls" parameter is already included every time. For the width, only input a number. It will automatically become a percentage. As an example, if you want your player to be 100% width and loop, you would type something like:
+
+`[audio m4a="song.m4a" parameter="loop" width="100"]`
+
+This will give you a 100% width player with controls, and the audio will loop.
+
+
 ### Installation
 
 ```sh
