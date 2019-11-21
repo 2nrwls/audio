@@ -1,21 +1,16 @@
 # Audio BBcode
 
-A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use. This is not needed if you use my BBBBcode extension because that extension already includes this BBcode. This is only for those who do not want all the other codes that come with BBBBcode.
+A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use. This is not needed if you use my BBBBcode extension because that extension already includes this extact BBcode. This extension is only for those who do not want all the other codes that come with BBBBcode and only need the audio code.
 
 ### Usage
-`[audio mp3="song.mp3" ogg="song.ogg"]`
-
-or
-`[audio m4a="song.m4a"]`
-
-or the mp3 or ogg by itself.
-
-Optionally, you may add a parameter and/or width. Two popular parameters you might choose from are "loop" or "autoplay." The "controls" parameter is already included every time. For the width, only input a number. It will automatically become a percentage. As an example, if you want your player to be 100% width and loop, you would type something like:
-
-`[audio m4a="song.m4a" parameter="loop" width="100"]`
-
-This will give you a 100% width player with controls, and the audio will loop.
-
+~~~
+[audio mp3="song.mp3" ogg="song.ogg"]
+[audio mp3="song.mp3"]
+[audio ogg="song.ogg"]
+[audio m4a="song.m4a"]
+[audio mp3="song.mp3" width="50"]
+~~~
+(You may put a mp3 and ogg file together for maximum browser compatibility, or just post a mp3, ogg, or m4a file alone. Also, as the last example shows, you may modify the width. The width will become a percentage and by delfault, if you choose not to declare a width, the player will be 100% width.)
 
 ### Installation
 
