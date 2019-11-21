@@ -15,8 +15,8 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
              $config->BBCodes->addCustom(
-               '[audio mp3="{URL1?}" m4a="{URL2?}" ogg="{URL3?}" parameter="{TEXT?}" width="{NUMBER?}"]',
-               '<p><audio class="bbaudio inline-exclude" style="width:{NUMBER}%;" controls {TEXT}>
+               '[audio mp3="{URL1?}" m4a="{URL2?}" ogg="{URL3?}" parameter="{SIMPLETEXT?}" width="{NUMBER?}"]',
+               '<p><audio class="bbaudio inline-exclude" style="width:{NUMBER}%;" controls {SIMPLETEXT}>
                         <source src="{URL1}" type="audio/mpeg">
                         <source src="{URL2}" type="audio/mp4">
                         <source src="{URL3}" type="audio/ogg">
