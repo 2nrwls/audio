@@ -11,7 +11,7 @@ A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compati
 [audio wav="song.wav"]
 [audio mp3="song.mp3" width="50"]
 ~~~
-(You may put a mp3 and ogg file together for maximum browser compatibility, or just post a mp3, ogg, wav, or m4a file alone. Also, as the last example shows, you may modify the width. The width will become a percentage and by delfault, if you choose not to declare a width, the player will be 100% width.)
+(You may put a mp3 and ogg file together for maximum browser compatibility, or just post a mp3, ogg, wav, or m4a file alone. Also, as the last example shows, you may modify the width. The width will become a percentage and by default, if you choose not to declare a width, the player will be 100% width.)
 
 ### Installation
 
