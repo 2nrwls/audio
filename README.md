@@ -32,5 +32,3 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/flarum-bbcode-audio)
 - [GitHub](https://github.com/zerosonesfun/flarum-bbcode-audio)
-
-An extension by [Billy Wilcosky](https://wilcosky.com).
