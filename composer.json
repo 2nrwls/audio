@@ -1,14 +1,6 @@
 {
     "name": "zerosonesfun/flarum-bbcode-audio",
     "description": "Audio BBcode Add-on.",
-    "authors": [
-        {
-            "name": "Billy Wilcosky",
-            "email": "wilcosky@gmail.com",
-            "homepage": "https://wilcosky.com",
-            "role": "Creator"
-        }
-    ],
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
