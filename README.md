@@ -1,6 +1,6 @@
-# Audio BBcode
+# Audio BBCode
 
-A [Flarum](http://flarum.org) extension. Adds an [audio] BBcode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use. This is not needed if you use my BBBBcode extension because that extension already includes this extact BBcode. This extension is only for those who do not want all the other codes that come with BBBBcode and only need the audio code.
+A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use. This is not needed if you use my BBBBCode extension because that extension already includes this extact BBCode. This extension is only for those who do not want all the other codes that come with BBBBCode and only need the audio code.
 
 ### Usage
 ~~~
