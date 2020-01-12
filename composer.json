@@ -10,14 +10,14 @@
         }
     ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.8"
+        "flarum/core": "^0.1.0-beta.8"
     },
     "autoload": {
         "psr-4": {"ZerosOnesFun\\audio\\": "src/"}
     },
     "extra": {
         "flarum-extension": {
-            "title": "BBCode Audio",
+            "title": "BBCode - Audio",
             "icon": {
                 "name": "fas fa-bold",
                 "backgroundColor": "#ddd",
