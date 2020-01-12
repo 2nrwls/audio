@@ -1,6 +1,6 @@
 {
-    "name": "zerosonesfun/flarum-bbcode-audio",
-    "description": "Audio BBcode Add-on.",
+    "name": "zerosonesfun/audio",
+    "description": "BBCode - Audio",
     "type": "flarum-extension",
     "license": "MIT",
     "authors": [
@@ -10,16 +10,16 @@
         }
     ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+        "flarum/core": ">=0.1.0-beta.8"
     },
     "autoload": {
         "psr-4": {"ZerosOnesFun\\audio\\": "src/"}
     },
     "extra": {
         "flarum-extension": {
-            "title": "Audio BBcode",
+            "title": "BBCode Audio",
             "icon": {
-                "name": "fas fa-volume-up",
+                "name": "fas fa-bold",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
