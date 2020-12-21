@@ -33,7 +33,7 @@
     "extra": {
         "flarum-extension": {
             "title": "Audio BBCode",
-            "category": "features",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-play",
                 "backgroundColor": "#ddd",
