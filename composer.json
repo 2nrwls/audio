@@ -1,7 +1,8 @@
 {
     "name": "zerosonesfun/audio",
-    "description": "BBCode - Audio",
+    "description": "Audio BBCode.",
     "type": "flarum-extension",
+    "keywords": ["discussion, audio, BBCode, features"],
     "license": "MIT",
     "authors": [
         {
@@ -9,17 +10,32 @@
             "role": "Creator"
         }
     ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/audio/issues",
+        "source": "https://github.com/zerosonesfun/audio",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "autoload": {
-        "psr-4": {"ZerosOnesFun\\audio\\": "src/"}
+        "psr-4": {
+            "ZerosOnesFun\\Audio\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {
-            "title": "BBCode - Audio",
+            "title": "Audio BBCode",
+            "category": "features",
             "icon": {
-                "name": "fas fa-bold",
+                "name": "fas fa-play",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
