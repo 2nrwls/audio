@@ -2,7 +2,7 @@
     "name": "zerosonesfun/audio",
     "description": "Audio BBCode.",
     "type": "flarum-extension",
-    "keywords": ["discussion, audio, BBCode, features"],
+    "keywords": ["discussion", "audio", "BBCode", "features"],
     "license": "MIT",
     "authors": [
         {
