@@ -1,4 +1,4 @@
-# Audio BBCode
+# Audio BBCode (no downloads version)
 
 A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is a fork of the [original](https://github.com/zerosonesfun/audio) which disallows downloads by default. This was created by [request](https://discuss.flarum.org/d/21687-audio-bbcode-add-on/31). 
 
