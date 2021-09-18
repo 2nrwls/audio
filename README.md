@@ -1,6 +1,6 @@
 # Audio BBCode
 
-A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is compatible with my SM2 audio extension; feel free to install and use both. Let your members decide which they want to use.
+A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is a fork of the [original](https://github.com/zerosonesfun/audio) which disallows downloads by default. This was created by [request](https://discuss.flarum.org/d/21687-audio-bbcode-add-on/31). 
 
 ### Usage
 ~~~
@@ -18,17 +18,17 @@ A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is compati
 ### Installation
 
 ```sh
-composer require zerosonesfun/flarum-bbcode-audio
+composer require 2nrwls/flarum-bbcode-audio:"*"
 ```
 
 ### Updating
 
 ```sh
-composer update zerosonesfun/flarum-bbcode-audio
+composer update 2nrwls/flarum-bbcode-audio:"*"
 php flarum cache:clear
 ```
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/zerosonesfun/flarum-bbcode-audio)
-- [GitHub](https://github.com/zerosonesfun/flarum-bbcode-audio)
+- [Packagist](https://packagist.org/packages/2nrwls/flarum-bbcode-audio)
+- [GitHub](https://github.com/2nrwls/flarum-bbcode-audio)
