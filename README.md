@@ -18,17 +18,17 @@ A [Flarum](http://flarum.org) extension. Adds an [audio] BBCode. This is a fork 
 ### Installation
 
 ```sh
-composer require 2nrwls/flarum-bbcode-audio:"*"
+composer require 2nrwls/audio:"*"
 ```
 
 ### Updating
 
 ```sh
-composer update 2nrwls/flarum-bbcode-audio:"*"
+composer update 2nrwls/audio:"*"
 php flarum cache:clear
 ```
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/2nrwls/flarum-bbcode-audio)
-- [GitHub](https://github.com/2nrwls/flarum-bbcode-audio)
+- [Packagist](https://packagist.org/packages/2nrwls/audio)
+- [GitHub](https://github.com/2nrwls/audio)
