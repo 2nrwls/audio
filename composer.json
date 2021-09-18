@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\Audio\\": "src/"
+            "2nrwls\\Audio\\": "src/"
         }
     },
     "extra": {
